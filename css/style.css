@@ -681,14 +681,9 @@ input[type=range] {
   }
 
   #text_about {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    width: auto;
-    height: auto;
-    border: 1px solid #c8c8c8;
-    border-radius: 7px;
-    padding: 25px 0 0 20px;
-    resize: none;
+    width: 400px;
+    padding: 0;
+    height: 180px;
   }
 }
 
@@ -722,6 +717,11 @@ input[type=range] {
     width: 300px;
   }
 
+  .info__input__place__label {
+    font-size: 14px;
+    color: #c8c8c8;
+  }
+
   .info__input__skype {
     font-size: 14px;
     width: 300px;
@@ -750,6 +750,11 @@ input[type=range] {
 
   .js__progress__bar {
     padding: 0 20px;
+  }
+
+  #text_about {
+    width: 300px;
+    padding: 0;
   }
 }
 
@@ -784,16 +789,11 @@ input[type=range] {
     width: 220px;
   }
 
-  .about__textarea {
-    width: auto;
-    margin: 0 auto;
-  }
-
   #text_about {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     width: 220px;
-    height: auto;
+    height: 180px;
     border: 1px solid #c8c8c8;
     border-radius: 7px;
     padding: 0;
